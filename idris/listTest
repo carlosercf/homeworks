@@ -1,0 +1,19 @@
+module listTest
+
+import list
+import Nat
+
+lO: list Nat
+lO = nil
+
+l1: list Nat
+l1 = cons 0 nil
+
+l2: list Nat
+l2 = (cons 22 (cons 43 nil))
+
+l3: list Nat
+l3 = (cons 1 (cons 34 (cons 57 nil)))
+
+le1: list Nat
+le1 = length l1
